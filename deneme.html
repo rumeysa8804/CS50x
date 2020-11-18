@@ -80,6 +80,10 @@
 			font-family: tahoma;
 			font-size: 95%;
 	   }
+
+	   #btn2:hover {
+	   	background-color: #0000CC;
+	   }
 	
 	   #blm3 {
 	   	background-color: rgb(240 240 240);
@@ -90,29 +94,50 @@
 	   
 
           #upload-box {
-        width:1000px;
-        height: 40px;
+        width:900px;
+        height: 39px;
      	font-size: 16px;
      	background-color: white;
-     	border: 1px purple solid;
-     	border-radius: 3px;
+     	border: 1px #cccccc solid;
+     	border-top-left-radius:3px;
      	position: relative;
      	left: 100px;     
      	}
 
      ::-webkit-file-upload-button {
      	position: relative;
-     	left: 900px;
+     	left: 800px;
      	color: white;
-     	background-color: blue;
+     	background-color: #cccccc;
      	padding: 10px;
      	width: 100px;
-     	height: 40px;
+     	height: 39px;
+     	border: none;
      } 
 
       label button {
       	width: 100px;
-      	height: 40px;}
+      	height: 40px;
+      }
+      
+      #btn4 {
+      	border: 1px solid grey;
+      	width: 100px;
+      	height: 42px;
+      	position: relative;
+      	left: 95px;
+      	border-top-right-radius: 3px;
+      	top: 0;
+      	background-color: white;
+      	color: grey;
+        font-size: 16px;
+      }
+
+      #btn4:hover {
+      	background-color: grey;
+      	color: white;
+
+      }
 
       
       * {
@@ -198,6 +223,11 @@
 
 
      }
+     div button:hover {
+     	background-color: #28A745;
+     	color: white;
+
+     }
 
 
 
@@ -230,6 +260,7 @@
  
 
   <label for="file"><input type="file" id="upload-box">
+  	<button id="btn4">Buton</button></label>
     	
    <hr>
      
