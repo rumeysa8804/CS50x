@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		#lnk{
+			border: 1px steelblue solid;
+			width: 80%;
+			height: 50px;
+			background-color:#CCE5FF;
+			position: relative;
+			left: 100px;
+			border-radius: 5px;
+			font-family: tahoma;
+			font-size: 95%;
+			color: steelblue;
+			padding-left: 20px;
+
+		}
+
+		
+		
+
+		b:hover {
+			text-decoration: underline;
+
+		}
+
+		#btn1 { border: 1px #dc3545 solid;
+			background-color: white;
+			width:80px;
+			height:40px;
+			border-radius: 5px;
+			padding: 10px 10px 7px 11px;
+			color: #dc3545;
+			font-family: tahoma;
+			font-size: 95%;
+            position: relative;
+            left: 100px;
+		   }
+		  
+
+		#btn1:hover {
+			background-color: #dc3545;
+			color: white;
+
+			}
+
+	    table {
+	    	border: 0.5px #cccccc solid;
+	    	border-radius: 3px;
+	    	width: 80%;
+	    	height: 256px;
+	    	position:relative;
+	    	left: 100px;
+	    }
+	    #blm {
+	    	width: 1050px;
+	    	height: 50px;
+	    	text-align: center;
+	    	background-color: rgb(240 240 240);
+	    	font-size: 18px;
+
+	    }
+        
+        #blm2 {
+        	text-align: center;
+        	font-family: tahoma;
+        	font-size: 15px;
+        }
+	
+	   #btn2 {
+	   	border: 1px #0069D9 solid;
+	   	background-color: #0069D9;
+	   	color:white;
+	   	width: 150px;
+	   	height:40px;
+			border-radius: 5px;
+			padding: 10px 10px 7px 11px;
+			font-family: tahoma;
+			font-size: 95%;
+	   }
+	
+	   #blm3 {
+	   	background-color: rgb(240 240 240);
+	   	height: 50px;
+	   	text-align: center;
+	   	font-family: tahoma;
+	   }
+	   
+
+          #upload-box {
+        width:1000px;
+        height: 40px;
+     	font-size: 16px;
+     	background-color: white;
+     	border: 1px purple solid;
+     	border-radius: 3px;
+     	position: relative;
+     	left: 100px;     
+     	}
+
+     ::-webkit-file-upload-button {
+     	position: relative;
+     	left: 900px;
+     	color: white;
+     	background-color: blue;
+     	padding: 10px;
+     	width: 100px;
+     	height: 40px;
+     } 
+
+      label button {
+      	width: 100px;
+      	height: 40px;}
+
+      
+      * {
+      	list-style: none;
+      }
+
+      a {text-decoration: none;}
+      ul.menu {
+      	background-color: rgb(240 240 240);
+        height: 55px;
+        width: 1000px;
+        position: relative;
+        left: 100px;
+
+      }
+      ul.menu> li {
+      	float: left;
+      	height: 50px;
+      	position: relative;
+      padding-top: 10px;
+
+
+
+      }
+      ul.menu>li>a {
+      	display: block;
+      	font-size: 30px;
+      	color: black;
+      
+      	
+      }
+       
+       ul.menu ul {
+       	background-color: white;
+       	width: 200px;
+       	position: absolute;
+       	top: 50px;
+       	left: 0;
+       	opacity: 0;
+       	transition: 250ms all;
+       	visibility: hidden;
+
+       }
+      
+      ul.menu li a {
+      	display: block;
+      	color: black;
+      	padding: 7px 12px;
+      	font-size: 14px;
+      }
+
+     
+
+     ul.menu>li:hover ul {
+     	opacity: 1;
+     	visibility: visible;
+     	border: 1px solid #cccccc;
+     	border-radius: 3px;
+     }
+
+
+     div input {
+     	height: 35px;
+     	width: 200px;
+     	border: 1px solid #cccccc;
+     	border-radius: 5px;
+     	position: relative;
+     	left: 400px;
+     	top: 8px;
+     	font-size: 16px;
+     }
+
+     div button {
+     	height: 40px;
+     	width: 100px;
+     	border: 1px solid #28A745;
+     	border-radius: 5px;
+     	position: relative;
+     	left: 400px;
+     	top: 8px;
+     	color: #28A745;
+     	font-size: 16px;
+
+
+     }
+
+
+
+          
+	</style>
+	<title>Ödev3</title>     
+  
+</head>
+<body>
+	<div id="lnk"><p>A simple primary alert with<b><a href="#"> an example link</a></b>. Give it a click if you like</div><hr>
+<button id="btn1">Danger</button>
+<hr>
+<table>
+ <tr>
+ 	<td id="blm">Featured</td>
+ </tr>
+ <tr>
+ 	<td id="blm2"><h3>Special title treatment</h3>
+ 		<p>With supporting text below as a natural lead-in to additional content.</p>
+
+ 		<p><a href="file:///C:/Users/rumeysa/OneDrive/Masa%C3%BCst%C3%BC/deneme.html" ><button id="btn2">Go somewhere</button></a></p>
+ 	</td>
+
+ </tr>
+ <tr>
+ 	<td id="blm3">2 days ago</td>
+ </tr>
+
+</table><hr>
+ 
+
+  <label for="file"><input type="file" id="upload-box">
+    	
+   <hr>
+     
+
+ 
+    	<div>
+    		
+    	<ul class="menu">
+   	<li><a href="#">NAVBAR</a></li>
+   	 	<li><a href="#">Home</a></li>
+   	<li><a href="#">Link</a></li>
+   	<li><a href="#">Dropdown</a>
+     <ul>
+     	<li><a href="#">Action</a></li>
+     	<li><a href="#">Another action</a></li>
+     	<li><a href="#">Something else here</a></li>
+     </ul>
+
+   	</li>
+   
+   <input type="text" placeholder="search">
+    	<button> Search</button>
+   </ul>
+
+    	
+   
+    </div>
+   
+
+  
+
+
+
+</body>
+</html>
